@@ -1,0 +1,44 @@
+/* regular */
+@font-face {
+    font-family: 'iranyekan';
+    font-style: normal;
+    font-weight: 400;
+    src:  url('../assets/fonts/eot/IRANYekanWebRegular.eot') format('eot'),
+          url('../assets/fonts/ttf/IRANYekanWebRegular.ttf') format('ttf'),
+          url('../assets/fonts/woff/IRANYekanWebRegular.woff') format('woff'),
+          url('../assets/fonts/woff2/IRANYekanWebRegular.woff2') format('woff2');
+  }
+
+  /* medium */
+  @font-face {
+    font-family: 'iranyekan';
+    font-style: normal;
+    font-weight: medium;
+    src:  url('../assets/fonts/eot/IRANYekanWebMedium.eot') format('eot'),
+          url('../assets/fonts/ttf/IRANYekanWebMedium.ttf') format('ttf'),
+          url('../assets/fonts/woff/IRANYekanWebMedium.woff') format('woff'),
+          url('../assets/fonts/woff2/IRANYekanWebMedium.woff2') format('woff2');
+  }
+
+  /* semi bold */
+  @font-face {
+    font-family: 'iranyekan';
+    font-style: normal;
+    font-weight: 600;
+    src:  url('../assets/fonts/eot/IRANYekanWebBold.eot') format('eot'),
+          url('../assets/fonts/ttf/IRANYekanWebBold.ttf') format('ttf'),
+          url('../assets/fonts/woff/IRANYekanWebBold.woff') format('woff'),
+          url('../assets/fonts/woff2/IRANYekanWebBold.woff2') format('woff2');
+  }
+
+  /* bold */
+  @font-face {
+    font-family: 'iranyekan';
+    font-style: normal;
+    font-weight: bold;
+    src:  url('../assets/fonts/eot/IRANYekanWebExtraBold.eot') format('eot'),
+          url('../assets/fonts/ttf/IRANYekanWebExtraBold.ttf') format('ttf'),
+          url('../assets/fonts/woff/IRANYekanWebExtraBold.woff') format('woff'),
+          url('../assets/fonts/woff2/IRANYekanWebExtraBold.woff2') format('woff2');
+  }
+

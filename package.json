@@ -1,0 +1,36 @@
+{
+  "name": "complete-store-app-pages-with-tailwind",
+  "version": "1.0.0",
+  "description": "a project with tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "dev:css": "postcss ./src/styles/tailwind.css -o ./.tmp/styles/index.css --watch",
+    "copyfiles":"copyfiles -u 1 -a src/assets/fonts/eot/* src/assets/fonts/ttf/* src/assets/fonts/woff/* src/assets/fonts/woff2/* .tmp",
+    "server": "browser-sync start --server src --serveStatic .tmp --files .tmp, \"./src/**/*.html\"",
+    "start": "run-p dev:* copyfiles server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miladxsar23/complete-store-app-pages-with-tailwind.git"
+  },
+  "keywords": [
+    "tailwind",
+    "ui",
+    "shop"
+  ],
+  "author": "Milad shirian dehkordi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Miladxsar23/complete-store-app-pages-with-tailwind/issues"
+  },
+  "homepage": "https://github.com/Miladxsar23/complete-store-app-pages-with-tailwind#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "browser-sync": "^2.27.11",
+    "copyfiles": "^2.4.1",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.2.4"
+  }
+}
